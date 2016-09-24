@@ -1,5 +1,5 @@
 package com.geocoderAdd;
-
+//dcv
 import java.sql.*;
 import java.util.StringTokenizer;
 import java.lang.String;
@@ -57,7 +57,7 @@ public class AddTestDrive {
             StringBuffer tmpsbf = new StringBuffer();
             while(stn.hasMoreElements()){
                String tmpString = stn.nextToken();
-               if(!tmpString.contains("¾ÆÆÄÆ®")){
+               if(!tmpString.contains("Â¾Ã†Ã†Ã„Ã†Â®")){
                   tmpsbf.append(tmpString);
                }else{
                   tmpsbf.append(" ");
